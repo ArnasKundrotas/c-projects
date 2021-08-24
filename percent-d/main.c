@@ -11,5 +11,9 @@ int main() {
 
     printf ("some text %f then som etext %d another text %d and another text %d\n", 93.7,2,3,4);
 
+    printf ("some text %.1f then som etext %d another text %d and another text %d\n", 93.7,2,3,4);
+
+    printf ("some text %.1f then som etext %c another text %d and another text %d\n", 93.7,"abcd",3,4);
+
     return 0;
 }
