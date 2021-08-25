@@ -3,16 +3,21 @@
 
 int main() {
 
-    int rect_height;
-    int rect_width;
+    double rect_height;
+    double rect_width;
+    double rect_area;
 
     printf ("Enter rectangle height: ");
-    scanf ("%d", &rect_height);
+    scanf ("%lf", &rect_height);
+    printf ("%lf", rect_height);
 
     printf ("Enter rectangle width: ");
-    scanf ("%d", &rect_width);
+    scanf ("%lf", &rect_width);
+    printf ("%lf", rect_width);
 
-    printf ("Rectangle area is: %d", rect_height*rect_width);
+    rect_area = rect_height * rect_width;
+
+    printf ("Rectangle area is: %lf", rect_area);
 
     return 0;
 }
